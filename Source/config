@@ -1,0 +1,35 @@
+##############################################################
+#
+# Configuration file for Alex 4
+#
+##############################################################
+#
+# If you lose control of the contents of this file and want to
+# restore to the defaults, you can just delete it.
+#
+##############################################################
+
+# These options control the startup resolution
+# 640x480 non-fullscreen is a good default.
+[video]
+fullscreen = false
+width = 400
+height = 240
+vsync = true
+colorize = false
+
+# These options control the sound and music
+# volume is 0-100. 44100Hz at 1024 samples is a good default.
+[sound]
+enable = true
+buffer_size = 1024
+frequency = 44100
+sample_volume = 100
+music_volume = 100
+
+# These options control the game behaviour
+# Better not mess with them.
+[game]
+max_levels = 1
+level00_cherries = 100
+
